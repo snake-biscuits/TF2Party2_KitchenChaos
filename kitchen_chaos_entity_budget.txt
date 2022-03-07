@@ -1,0 +1,25 @@
+# base ingredient
+1 item_teamflag
+1 filter_activator_name
+
+# chop station
+1 trigger_multiple
+1 math_counter
+1 logic_branch
+3 env_sprite
+1 item_teamflag
+
+# meal station
+1 trigger_multiple
+1 item_teamflag
+1 filter_activator_name
+
+# delivery point
+1 trigger_multiple
+1 ambient_generic
+
+# TOTAL
+1x base ingredient
+1x chop station
+2x meal station
+2x delivery point
