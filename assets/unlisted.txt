@@ -1,0 +1,8 @@
+# creator
+# asset pack / download
+#     filename of asset used
+#     filename of asset used
+
+Diva Dan
+https://tf2maps.net/downloads/dans-laughter-and-slaughter-assets.9751/
+    models/props_slaughter/vinyl/vinyl_flaps_wide_open.mdl

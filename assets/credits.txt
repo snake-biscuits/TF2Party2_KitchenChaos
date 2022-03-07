@@ -1,5 +1,7 @@
 australian-bass-1024x512.jpg
     sourced from google images & used as a reference
+    did not check the license but it's a very good reference for tf2's style
+    https://vfa.vic.gov.au/education/fish-species/australian-bass is the source credited by google
 
 kitchen_chaos_models.blend
     TF2 player models & other scale reference props sourced from .vpks & SDK files w/ SourceIO

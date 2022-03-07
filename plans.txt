@@ -1,0 +1,49 @@
+Ingredient combining
+    need to count each ingredient independantly
+    can we do this with less entities if only one of each ingredient is needed?
+    can we even get away with a filter_multi for ingredients?
+
+timed cooking / stations with timers
+    need a way to quickly communicate the timer
+    could we steal the flag reset sprite? is it a sprite?
+    flags return instantly under RD logic, but this does solve a minor visal bug with fake return icons over flags
+    RD logic also helps mute announcer spam
+
+all these triggers are probably eating up the vbsp models limit
+    MAX 1024
+    worldspawn uses 1 by default
+    every brush based entity will consume a model, likely even if it has no renderable faces
+    though in this case the map may simply fail to compile (e.g. func_rotating made of skip_brushes)
+    don't forget we have to share limits with other minigames and the tf2party triggers
+    various buttons etc. likely also contribute
+
+more custom assets
+    need to texture fish fillets plate
+    should also add a chips variant
+    
+undecided if plates should be a required resource to manage
+    dynamically spawning flags that need to be targetted individuall seems absurdly difficult
+    washing dishes could be an interesting flow breaker, but might also seem like a punishment
+
+do players need ammo?
+    is chopping a fish with a minigun faster than 3 scouts pummelling with bats?
+
+should this minigame be scout only?
+    movement speed seems like a serious deciding factor and the flat map doesn't help
+    having lots of information visible at once is nice, but could get overwhelming
+    fortunately that's somewhat intentional, as the minigame should only last 1min
+
+waiting for ingredients to return while other players have them could hurt
+    but dynamic spawning complicates logic and could create a bunch of new issues
+        memory / edict management, specific targeting of players, carefully timed renaming of players etc.
+    will likely need to find a number of stations & available flags that gets everything used at once in a full server
+
+recipe / order selection & communicating recipes to players
+    unlike overcooked, players will have to learn recipes on the fly
+    sprites on the chalkboard above each delivery station seems like the way to go atm
+    setting the filters on the delivery triggers via addoutput should also handle setting the order
+    
+TODO: test within the full TF2Party2 prefab to make sure nothing breaks
+    disable TestSpawns & TestMetaLogic visgroups
+    enable PartyLogic visgroup
+    copy map (with texture lock on!) into latest TF2Party2 pre-alpha & follow Beto's instructions
