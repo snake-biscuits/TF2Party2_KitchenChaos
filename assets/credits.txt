@@ -1,0 +1,22 @@
+australian-bass-1024x512.jpg
+    sourced from google images & used as a reference
+
+kitchen_chaos_models.blend
+    TF2 player models & other scale reference props sourced from .vpks & SDK files w/ SourceIO
+
+bass_uvs.png
+    exported from .blend
+
+bass.kra
+bass.png
+    hand-painted texture, first rough pass in Blender, later 2D passes in Krita
+
+custom/tf2party2/materials/kitchen/kitchen_tile_blue.vmt
+custom/tf2party2/materials/kitchen/kitchen_tile_blue.vtf
+custom/tf2party2/materials/kitchen/kitchen_tile_red.vmt
+custom/tf2party2/materials/kitchen/kitchen_tile_red.vtf
+    stitched some tf2 kitchen tile textures together and reused their .vmts w/ some tweaks
+
+custom/tf2party2/materials/sprites/fish_and_chips.vmt
+custom/tf2party2/materials/sprites/fish_and_chips.vtf
+    experimenting with indicator sprites for "recipes" 
