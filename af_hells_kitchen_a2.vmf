@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "277"
+	"mapversion" "278"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -36,7 +36,7 @@ visgroups
 viewsettings
 {
 	"bSnapToGrid" "1"
-	"bShowGrid" "1"
+	"bShowGrid" "0"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
 }
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "277"
+	"mapversion" "278"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"

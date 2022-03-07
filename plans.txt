@@ -8,6 +8,7 @@ timed cooking / stations with timers
     could we steal the flag reset sprite? is it a sprite?
     flags return instantly under RD logic, but this does solve a minor visal bug with fake return icons over flags
     RD logic also helps mute announcer spam
+    math_colorblend could be used to update a sprite as an indicator, also doesn't use any edicts!
 
 all these triggers are probably eating up the vbsp models limit
     MAX 1024

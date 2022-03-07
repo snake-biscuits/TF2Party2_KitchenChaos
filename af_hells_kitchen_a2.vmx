@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "276"
+	"mapversion" "277"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -96,7 +96,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "276"
+	"mapversion" "277"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -32088,7 +32088,7 @@ entity
 		"OnHitMax" "mg7_chop_sprite_red_1*,Color,255 0 0,0.02,-1"
 		"OutValue" "mg7_chop_case_red_1,InValue,,0,-1"
 	}
-	"origin" "-1112 728 80"
+	"origin" "-1112 736 96"
 	editor
 	{
 		"color" "162 211 0"
@@ -32115,7 +32115,7 @@ entity
 		"OnCase01" "mg7_chop_button_red_1,PressOut,,0,-1"
 		"OnCase02" "mg7_chop_button_red_1,PressOut,,0,-1"
 	}
-	"origin" "-1112 744 80"
+	"origin" "-1112 736 80"
 	editor
 	{
 		"color" "162 211 0"
