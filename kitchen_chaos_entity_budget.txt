@@ -9,17 +9,31 @@
 3 env_sprite
 1 item_teamflag
 
-# meal station
+# meal station (single ingredient -> meal)
 1 trigger_multiple
 1 item_teamflag
 1 filter_activator_name
 
 # delivery point
+# TODO: 
 1 trigger_multiple
 1 ambient_generic
+# OPTIONAL EXTENSIONS:
+# 1 logic_case; pick a new order upon order completion
+# 1 env_sprite / env_glow; communitcate order to players
+# 1 func_door; communicate inactivity (could also be used to ramp up the pacing)
+
+# mix station (double ingredient -> meal)
+2 trigger_multiple
+1 item_teamflag
+1 filter_activator_name
+
+# NOTE: stations which receive ingredients expect only one copy of that ingredient to exist at any time
+# -- duplicate names etc. may lead to unexpected behaviour
 
 # TOTAL
-1x base ingredient
-1x chop station
-2x meal station
-2x delivery point
+1 base ingredient
+1 chop station
+2 meal station
+1 mix station
+3 delivery point

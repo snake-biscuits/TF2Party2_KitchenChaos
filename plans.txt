@@ -47,4 +47,5 @@ recipe / order selection & communicating recipes to players
 TODO: test within the full TF2Party2 prefab to make sure nothing breaks
     disable TestSpawns & TestMetaLogic visgroups
     enable PartyLogic visgroup
+    copy contents of RedStations visgroup to the blueside and replace all `_red` strings with `_blu`
     copy map (with texture lock on!) into latest TF2Party2 pre-alpha & follow Beto's instructions

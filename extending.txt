@@ -1,0 +1,21 @@
+each station's logic is almost 100% independent
+the only exception are trigger flags
+any station can be duplicated and it's number incremented to create a copy
+filters above triggers are tied to the flag at that station
+any station that receives multiple ingredients may need multiple triggers so each can target the flag to reset it
+
+afaik it's not possible to target the player and ForceDrop the flag, this would be ideal
+triggers, even those specifically targetting players do not appear to target the flags
+capturing the flag would solve this, if not for messing up the gamemode by skewing scores
+it could be possible to avoid any abuse of some system like this by giving finished dishes a higher value
+however fast flag reset times and a more granular score would likely detract from the focus of delivering complete meals
+
+this might be worth trying, but time is limited
+
+a simple approach to multi-flag setups would be incredibly useful
+
+alternatives include, cycling filters on a timer via fireuser
+e.g. OnFireUser1 !self AddOutput filtername mgX_filter_...
+does !self require the entity to have a targetname / unique targetname?
+
+not having to disable alternate triggers would also be awesome

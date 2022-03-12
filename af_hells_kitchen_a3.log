@@ -1,0 +1,1100 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139184 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 441 texinfos to 295
+Reduced 87 texdatas to 78 (2922 bytes to 2634)
+Writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 13416, actual size 9852
+1 second elapsed
+
+
+
+8 threads
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.prt
+ 261 portalclusters
+ 722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2246 visible clusters (4.23%)
+Total clusters visible: 53071
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 257
+visdatasize:19089  compressed from 20880
+writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1104/65536       22080/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       64669/393216   (16.4%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient       755/65536       21140/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1104/65536       22080/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces             1704/65536       95424/3670016  ( 2.6%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights         56/8192         4928/720896   ( 0.7%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]     1248584/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       64669/393216   (16.4%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139184 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 441 texinfos to 295
+Reduced 87 texdatas to 78 (2922 bytes to 2634)
+Writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 13416, actual size 9852
+1 second elapsed
+
+
+
+8 threads
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.prt
+ 261 portalclusters
+ 722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2246 visible clusters (4.23%)
+Total clusters visible: 53071
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 257
+visdatasize:19089  compressed from 20880
+writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1108/65536       22160/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       64615/393216   (16.4%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient       755/65536       21140/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1108/65536       22160/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces             1704/65536       95424/3670016  ( 2.6%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights         56/8192         4928/720896   ( 0.7%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]     1248584/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       64615/393216   (16.4%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139184 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 441 texinfos to 295
+Reduced 87 texdatas to 78 (2922 bytes to 2634)
+Writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 13416, actual size 9852
+1 second elapsed
+
+
+
+8 threads
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.prt
+ 261 portalclusters
+ 722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2246 visible clusters (4.23%)
+Total clusters visible: 53071
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 257
+visdatasize:19089  compressed from 20880
+writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1108/65536       22160/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       66597/393216   (16.9%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient       755/65536       21140/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1704 faces
+264768 square feet [38126728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1704 patches before subdivision
+1704 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 278658, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4551, 4549, 3996)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(621, 489, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(158, 100, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                454/8192         5448/98304    ( 5.5%) 
+brushsides            2849/65536       22792/524288   ( 4.3%) 
+planes                1108/65536       22160/1310720  ( 1.7%) 
+vertexes              2649/65536       31788/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               295/12288       21240/884736   ( 2.4%) 
+texdata                 78/2048         2496/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1704/65536       95424/3670016  ( 2.6%) 
+hdr faces             1704/65536       95424/3670016  ( 2.6%) 
+origfaces             1063/65536       59528/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1926/65536        3852/131072   ( 2.9%) 
+leafbrushes            893/65536        1786/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12480/512000      49920/2048000  ( 2.4%) 
+edges                 7465/256000      29860/1024000  ( 2.9%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights         56/8192         4928/720896   ( 0.7%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            157/32768        1570/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2895/65536        5790/131072   ( 4.4%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1248584/0        ( 0.0%) 
+HDR lightdata         [variable]     1248584/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       66597/393216   (16.9%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+HDR leaf ambient      4292/65536      120176/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14960    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      139184/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4788
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 94 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (136600 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 438 texinfos to 293
+Reduced 86 texdatas to 77 (2901 bytes to 2613)
+Writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 13416, actual size 9852
+1 second elapsed
+
+
+
+8 threads
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.prt
+ 261 portalclusters
+ 722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2246 visible clusters (4.23%)
+Total clusters visible: 53071
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 257
+visdatasize:19089  compressed from 20880
+writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1668 faces
+263816 square feet [37989512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1668 patches before subdivision
+1668 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 269824, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4394, 4396, 3845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(611, 480, 378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(156, 98, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                447/8192         5364/98304    ( 5.5%) 
+brushsides            2807/65536       22456/524288   ( 4.3%) 
+planes                1088/65536       21760/1310720  ( 1.7%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               293/12288       21096/884736   ( 2.4%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1668/65536       93408/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1038/65536       58128/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1879/65536        3758/131072   ( 2.9%) 
+leafbrushes            883/65536        1766/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12176/512000      48704/2048000  ( 2.4%) 
+edges                 7256/256000      29024/1024000  ( 2.8%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2739/65536        5478/131072   ( 4.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1242808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       67688/393216   (17.2%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+HDR leaf ambient       755/65536       21140/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14608    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      136600/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4656
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1668 faces
+263816 square feet [37989512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1668 patches before subdivision
+1668 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 269824, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4394, 4396, 3845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(611, 480, 378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(156, 98, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                447/8192         5364/98304    ( 5.5%) 
+brushsides            2807/65536       22456/524288   ( 4.3%) 
+planes                1088/65536       21760/1310720  ( 1.7%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               293/12288       21096/884736   ( 2.4%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1668/65536       93408/3670016  ( 2.5%) 
+hdr faces             1668/65536       93408/3670016  ( 2.5%) 
+origfaces             1038/65536       58128/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1879/65536        3758/131072   ( 2.9%) 
+leafbrushes            883/65536        1766/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12176/512000      48704/2048000  ( 2.4%) 
+edges                 7256/256000      29024/1024000  ( 2.8%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights         56/8192         4928/720896   ( 0.7%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2739/65536        5478/131072   ( 4.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1242808/0        ( 0.0%) 
+HDR lightdata         [variable]     1242808/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       67688/393216   (17.2%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+HDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14608    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      136600/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4656
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\materials
+Loading E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 94 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (136600 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 438 texinfos to 293
+Reduced 86 texdatas to 77 (2901 bytes to 2613)
+Writing E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\Mod\TeamFortress2\mapsrc\_CONTESTS\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 13416, actual size 9852
+1 second elapsed
+
+
+
+8 threads
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+reading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.prt
+ 261 portalclusters
+ 722 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 2246 visible clusters (4.23%)
+Total clusters visible: 53071
+Average clusters visible: 203
+Building PAS...
+Average clusters audible: 257
+visdatasize:19089  compressed from 20880
+writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1668 faces
+263816 square feet [37989512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1668 patches before subdivision
+1668 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 269824, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4394, 4396, 3845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(611, 480, 378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(156, 98, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                447/8192         5364/98304    ( 5.5%) 
+brushsides            2807/65536       22456/524288   ( 4.3%) 
+planes                1088/65536       21760/1310720  ( 1.7%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               293/12288       21096/884736   ( 2.4%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1668/65536       93408/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1038/65536       58128/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1879/65536        3758/131072   ( 2.9%) 
+leafbrushes            883/65536        1766/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12176/512000      48704/2048000  ( 2.4%) 
+edges                 7256/256000      29024/1024000  ( 2.8%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2739/65536        5478/131072   ( 4.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1242808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       67688/393216   (17.2%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+HDR leaf ambient       755/65536       21140/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14608    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      136600/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4656
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1668 faces
+263816 square feet [37989512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1668 patches before subdivision
+1668 patches after subdivision
+56 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 269824, max 486
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4394, 4396, 3845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(611, 480, 378)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(156, 98, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0056 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/1024         1104/49152    ( 2.2%) 
+brushes                447/8192         5364/98304    ( 5.5%) 
+brushsides            2807/65536       22456/524288   ( 4.3%) 
+planes                1088/65536       21760/1310720  ( 1.7%) 
+vertexes              2591/65536       31092/786432   ( 4.0%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               293/12288       21096/884736   ( 2.4%) 
+texdata                 77/2048         2464/65536    ( 3.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1668/65536       93408/3670016  ( 2.5%) 
+hdr faces             1668/65536       93408/3670016  ( 2.5%) 
+origfaces             1038/65536       58128/3670016  ( 1.6%) 
+leaves                 755/65536       24160/2097152  ( 1.2%) 
+leaffaces             1879/65536        3758/131072   ( 2.9%) 
+leafbrushes            883/65536        1766/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12176/512000      48704/2048000  ( 2.4%) 
+edges                 7256/256000      29024/1024000  ( 2.8%) 
+LDR worldlights         56/8192         4928/720896   ( 0.7%) 
+HDR worldlights         56/8192         4928/720896   ( 0.7%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2739/65536        5478/131072   ( 4.2%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                17/512          5984/180224   ( 3.3%) 
+LDR lightdata         [variable]     1242808/0        ( 0.0%) 
+HDR lightdata         [variable]     1242808/0        ( 0.0%) 
+visdata               [variable]       19089/16777216 ( 0.1%) 
+entdata               [variable]       67688/393216   (17.2%) 
+LDR ambient table      755/65536        3020/262144   ( 1.2%) 
+HDR ambient table      755/65536        3020/262144   ( 1.2%) 
+LDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+HDR leaf ambient      4283/65536      119924/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14608    ( 0.0%) 
+pakfile               [variable]        9852/0        ( 0.0%) 
+physics               [variable]      136600/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4656
+Writing e:\mod\teamfortress2\mapsrc\_contests\april_fools\2022\af_hells_kitchen_a3.bsp
+1 second elapsed
